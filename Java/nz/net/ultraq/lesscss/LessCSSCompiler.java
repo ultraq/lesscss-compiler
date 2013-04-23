@@ -95,8 +95,10 @@ public class LessCSSCompiler {
 	 */
 	public void compile(File input, File output) throws LessCSSException {
 
+		Scanner scanner = null;
 		String result;
-		try (Scanner scanner = new Scanner(input)) {
+		try {
+			scanner = new Scanner(input);
 			scanner.useDelimiter("\\A");
 			String inputstring = scanner.hasNext() ? scanner.next() : "";
 			result = compile(input.getName(), inputstring);
@@ -104,13 +106,25 @@ public class LessCSSCompiler {
 		catch (FileNotFoundException ex) {
 			throw new LessCSSException("Input file " + input.getName() + " doesn't exist", ex);
 		}
+		finally {
+			if (scanner != null) {
+				scanner.close();
+			}
+		}
 
 		try {
 			if (!output.exists()) {
 				output.createNewFile();
 			}
-			try (BufferedWriter writer = new BufferedWriter(new FileWriter(output))) {
+			BufferedWriter writer = null;
+			try {
+				writer = new BufferedWriter(new FileWriter(output));
 				writer.write(result);
+			}
+			finally {
+				if (writer != null) {
+					writer.close();
+				}
 			}
 		}
 		catch (IOException ex) {

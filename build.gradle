@@ -33,7 +33,7 @@ apply from: 'https://raw.github.com/ultraq/gradle-support/master/eclipse-support
 //project.name      = 'LessCSS Compiler'
 project.description = 'LessCSS compiler for Java.'
 project.archivesBaseName = 'lesscss-compiler'
-project.sourceCompatibility = '1.7'
+project.sourceCompatibility = '1.6'
 
 project.group    = 'nz.net.ultraq.lesscss'
 project.artifact = 'lesscss-compiler'
