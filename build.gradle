@@ -1,5 +1,5 @@
 /*
- * Copyright 2012, Emanuel Rabina (http://www.ultraq.net.nz/)
+ * Copyright 2013, Emanuel Rabina (http://www.ultraq.net.nz/)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,7 +37,7 @@ project.sourceCompatibility = '1.6'
 
 project.group    = 'nz.net.ultraq.lesscss'
 project.artifact = 'lesscss-compiler'
-project.version  = '1.0-SNAPSHOT'
+project.version  = '1.0'
 project.year     = '2013'
 
 dependencies {
