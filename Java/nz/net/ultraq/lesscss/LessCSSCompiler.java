@@ -38,7 +38,7 @@ import java.util.Scanner;
 public class LessCSSCompiler {
 
 	private static final String ENV_RHINO_JS = "nz/net/ultraq/lesscss/env.rhino-1.2.13.js";
-	private static final String LESS_JS      = "nz/net/ultraq/lesscss/less-1.3.3.js";
+	private static final String LESS_JS      = "nz/net/ultraq/lesscss/less-1.4.2.js";
 
 	/* (function() {
 	 * 	 var result = null;

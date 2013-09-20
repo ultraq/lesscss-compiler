@@ -4,8 +4,8 @@ LESS CSS Compiler
 
 A standalone LESS CSS compiler for Java, spun-off from my [LESS CSS Filter](https://github.com/ultraq/lesscss-filter).
 
- - Current version: 1.0
- - Released: 2 May 2013
+ - Current version: 1.0.1
+ - Released: ?? ??? 2013
 
 
 Requirements
@@ -18,7 +18,7 @@ Installation
 ------------
 
 ### Standalone distribution
-Copy the JAR from [the latest download bundle](http://www.ultraq.net.nz/downloads/programming/LessCSS Compiler 1.0.zip),
+Copy the JAR from [the latest download bundle](http://www.ultraq.net.nz/downloads/programming/LessCSS Compiler 1.0.1.zip),
 or build the project from the source code here on GitHub.
 
 ### For Maven and Maven-compatible dependency managers
@@ -26,7 +26,7 @@ Add a dependency to your project with the following co-ordinates:
 
  - GroupId: `nz.net.ultraq.lesscss`
  - ArtifactId: `lesscss-compiler`
- - Version: `1.0`
+ - Version: `1.0.1`
 
 
 Usage
@@ -53,6 +53,10 @@ compiler.compile(new File("input.less"), new File("output.css"));
 Changelog
 ---------
 
+### 1.0.1
+ - Upgrade to LessCSS 1.4.2.
+
 ### 1.0
  - Split processor/compiler part from the filter project.
- - Update lesscss.js version to 1.3.3.
+ - Upgrade to LessCSS 1.3.3.
+ 
