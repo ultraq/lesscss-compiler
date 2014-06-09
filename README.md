@@ -5,7 +5,7 @@ LESS CSS Compiler
 A standalone LESS CSS compiler for Java, spun-off from my [LESS CSS Filter](https://github.com/ultraq/lesscss-filter).
 
  - Current version: 1.0.2
- - Released: ?? ??? 2014
+ - Released: 9 June 2014
 
 
 Requirements
@@ -54,7 +54,7 @@ Changelog
 ---------
 
 ### 1.0.2
- - Update to Less 1.7.0
+ - Upgrade to Less 1.7.0
 
 ### 1.0.1
  - Upgrade to Less 1.4.2.

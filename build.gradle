@@ -35,7 +35,7 @@ project.sourceCompatibility = '1.6'
 
 project.group    = 'nz.net.ultraq.lesscss'
 project.artifact = 'lesscss-compiler'
-project.version  = '1.0.2-SNAPSHOT'
+project.version  = '1.0.2'
 project.year     = '2013'
 
 dependencies {
